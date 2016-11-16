@@ -1,0 +1,5 @@
+*.csv
+*.pdf
+*.sqlite3
+PCDP/
+.ipynb_checkpoint/
