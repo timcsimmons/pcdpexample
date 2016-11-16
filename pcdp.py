@@ -18,6 +18,7 @@ def load_data(data):
                 fmt = fmt.dropna()
                 series = pd.Categorical(result[column], categories=fmt.Code, ordered=True)
                 series.set_categories(fmt.Descr, rename=True, inplace=True)
-                result[column] = series
+                
+                result[column] = series.remove_unused_categories()
 
     return result
