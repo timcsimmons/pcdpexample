@@ -2,4 +2,5 @@
 *.pdf
 *.sqlite3
 PCDP/
-.ipynb_checkpoint/
+.ipynb_checkpoints/
+__pycache__/
